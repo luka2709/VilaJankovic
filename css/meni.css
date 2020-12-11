@@ -1,0 +1,24 @@
+
+.meni {
+	width:100%;
+	text-align:center;
+	background-color: lightcyan;
+	border-bottom:2px solid #374941;
+	height: 40px;
+	font-family: sans-serif;
+}
+.meni ul {
+	padding-top:10px;	
+}
+.meni li {
+	display:inline;
+	border-right:2px solid #374941; 
+	padding:0px 10px;
+	
+}
+.meni a{
+	color:black;
+}
+.meni a:hover{   
+	color:red;
+}

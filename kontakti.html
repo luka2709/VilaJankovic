@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+ <html>
+	<head>
+	<title> Vila Jankovic </title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="widht=device-width, initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/meni.css" rel="stylesheet" type="text/css" />
+	<link href="css/headerFooter.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" href="slike/icon.jpeg" type="img/png">
+	<script src="script/script.js"></script>
+	</head>
+  <body>
+	 <div id="header">
+		<h2> Vila Jankovic </h2>
+	</div>
+	<div id="omot">
+		<div id="vrhSlika">
+		<div class="topleft">Top Left</div>
+		</div>
+		<div class="meni">
+			<ul>
+				<li><a href="index.html">Početna</a></li>
+				<li><a href="galerija.html">Galerija</a></li>
+				<li><a href="rezervacije.html">Rezervacije</a></li>
+                <li><a href="kafebar.html">Kafe Bar</a></li>
+                <li><a href="#">Kontakt</a></li>
+			</ul>
+		</div>
+
+        <h3>Vaše pitanje</h3>
+        
+
+		<div id="pitanje">
+			<form name="pitanjeForma">
+				<label for="ime">Ime:</label>
+				<input type="text" id="ime" name="ime" placeholder="Vaše ime" required>
+			<br>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" placeholder="Unesi e-mail adresu" required>
+			<br>
+				<label for="Pitanje">Ovde nas možete kontaktirati:</label>
+				<textarea id="zahtev" name="zahtev" placeholder="Vaše pitanje" style="height:200px" required></textarea>
+				
+
+                <button id = "button" type="submit" class="btn btn-default" onclick="validacija1()">Pošaljite</button>
+              </form>
+              <br><br><br>
+		</div>
+		
+    </div>
+	<footer>
+		<ul>
+		  <li><a href="https://www.facebook.com/">  <img src="slike/fb.png" width="30px" height="30px">  </a></li>
+		  <li><a href="https://twitter.com">   <img src="slike/tw.png" width="30px" height="30px"></a></li>
+		  <li><a href="https://www.instagram.com/">   <img src="slike/ig1.png" width="30px" height="30px"></a></li>
+		</ul>
+		<p>Vila Janković Zlatibor &COPY;2020<br>Adresa: Jevrejsko brdo bb<br>Kontakt: +381637394427<br></p>
+	
+	  </footer> 
+  </body>
+  </html> 

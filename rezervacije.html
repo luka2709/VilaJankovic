@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+ <html>
+	<head>
+	<title> Vila Jankovic </title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/meni.css" rel="stylesheet" type="text/css" />
+	<link href="css/headerFooter.css" rel="stylesheet" type="text/css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet"/>
+	<link rel="icon" href="slike/icon.jpeg" type="img/png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+	<script src="script/script.js"></script>
+	<script src="script/jquery.js"></script>
+	</head>
+  <body>
+	 <div id="header">
+		<h2> Vila Jankovic </h2>
+	</div>
+	<div id="omot">
+		<div id="vrhSlika">
+
+		</div>
+		<div class="meni">
+			<ul>
+				<li><a href="index.html">Početna</a></li>
+				<li><a href="galerija.html">Galerija</a></li>
+				<li><a href="#">Rezervacije</a></li>
+				<li><a href="kafebar.html">Kafe Bar</a></li>
+				<li><a href="kontakti.html">Kontakt</a></li>
+			</ul>
+		</div>
+
+		<h3>Rezervacije</h3>
+
+		<div id="kontakt">
+			<form name="kontaktForma">
+				<label for="ime">Ime:</label>
+				<input type="text" id="ime" name="ime" placeholder="Unesite ime.." required>
+			
+				<label for="prezime">Prezime:</label>
+				<input type="text" id="prezime" name="prezime" placeholder="Unesite prezime.." required>
+			
+				<label for="Apartmani">Apartmani:</label>
+				<select id="Apartmani" name="Apartmani">
+				  <option value="Lux">Lux</option>
+				  <option value="Superior room">Superior room</option>
+				  <option value="Suite">Suite</option>
+				  <option value="Studio">Studio</option>
+				</select>
+
+				<label for="calendar">Unesite željeni datum dolaska:</label>
+				<input type="text" id="calendar" name="calendar" >
+				<br><br>
+
+
+				<label for="telefon">Broj telefona</label>
+        		<input type="text" id="telefon" name="telefon" placeholder="Unesi broj telefona" required>	<br>
+				<br>
+			
+				<label for="Napomena">Napomena</label>
+				<textarea id="subject" name="subject" placeholder="Unesite napomenu.." style="height:200px"></textarea>
+				<div class="checkbox">
+					<label for="myCheck">Putujem poslovno:</label> 
+					<input type="checkbox" id="poslovno" onclick="myFunction()">
+					<p id="text" style="display:none">Putujem poslovno je čekirano!</p>
+				</div>
+
+				<button id = "button" type="submit" class="btn btn-default" onclick="validacija()">Rezervišite odmah</button>
+			  </form>
+		</div>
+    </div>
+	<footer>
+		<ul>
+			<li><a href="https://www.facebook.com/">  <img src="slike/fb.png" width="30px" height="30px">  </a></li>
+			<li><a href="https://twitter.com">   <img src="slike/tw.png" width="30px" height="30px"></a></li>
+			<li><a href="https://www.instagram.com/">   <img src="slike/ig1.png" width="30px" height="30px"></a></li>
+		</ul>
+		<p>Vila Janković Zlatibor &COPY;2020<br>Adresa: Jevrejsko brdo bb<br>Kontakt: +381637394427<br></p>
+
+	</footer> 
+  </body>
+  </html>
